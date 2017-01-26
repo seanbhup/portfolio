@@ -14,10 +14,11 @@ font-family: 'Bungee Inline', cursive;*/
 
 body{
     background-color: #5BC0EB;
-    height: 200vh;
+    height: 100vh;
 
 }
 
+/*--------------------HOME TAB--------------------*/
 #home-screen{
     width:100%;
     margin: auto;
@@ -26,9 +27,9 @@ body{
 
 #home-name{
     font-family: 'Press Start 2P', cursive;
-    font-size: 4vw;
+    font-size: 3vw;
     color: #black;
-    margin-top: 350px;
+    margin-top: 250px;
     /*text-align:center;*/
 
 }
@@ -41,8 +42,8 @@ body{
 
 }
 
-#question-mark:hover{
-    animation: stuff 3s infinite;
+#question-mark{
+    color: #F45D01;
 
 }
 
@@ -93,11 +94,13 @@ body{
     margin-top: 10px;
 }
 
+
+
 #navbar{
     position:fixed;
     top:0;
     font-family: 'Bungee Shade', cursive;
-    height:100px;
+    height:15vh;
     width:100%;
     background-color: #0018ba;
     border: none
@@ -118,11 +121,10 @@ body{
 
 
 #home{
-    position: absolute;
-    left: 100px;
-    font-size: 46px;
+    left: 50px;
+    font-size: 5vh;
     color: #51CB20 !important;
-    border-right: 10px solid #51CB20;
+    border-right: 8px solid #51CB20;
     padding-right:75px
 }
 
@@ -140,10 +142,11 @@ body{
 }
 
 #navitem a{
+
     height:100px;
     color: #51CB20 !important;
     margin-left: 50px;
-    font-size: 34px;
+    font-size: 4vh;
 }
 
 #navitem:hover a, .active{
@@ -165,20 +168,61 @@ body{
 }
 
 #about{
-    font-size: 100px
+    font-size: 100px;
+    margin-top: 200px;
 }
 
+/*--------------------Skills TAB--------------------*/
 
-/*OTHER STUFF*/
 
-/*#header-wrapper{
-    width:100%;
-    float:left;
+#skills-wrapper{
+    text-align:center;
+}
+#skills-header{
+    margin:auto;
+    height: 15vh;
+    width:75%;
+    margin-top:200px;
+    margin-bottom: 2px;
+    border: 4px ridge #d69e3e;
+    background-image: url("http://www.petesqbsite.com/sections/express/issue14/Foliagetutorial/clouds_tiled.png");
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4vh;
+    line-height: 3.5;
+
 }
 
-li{
-    display: inline-block;
-    float:left;
-    margin-left: 100px;
+#skills-body{
+    width:75%;
+    height:200px;
+    margin:auto;
+    border: 4px ridge #d69e3e;
+    background-image: url("http://www.petesqbsite.com/sections/express/issue14/Foliagetutorial/clouds_tiled.png");
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3.5vh;
+}
 
-}*/
+#known-skills{
+    margin-top:10px;
+    width:50%;
+    float:left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3.5vh;
+    border-right: 4px ridge #d69e3e;
+}
+
+#upcoming-skills{
+    margin-top:10px;
+    width:50%;
+    float:left;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3.5vh;
+}
+.icon{
+    float:left;
+    margin-top:10px;
+    margin-left:15px;
+    height:10vh;
+    width:5vw;
+
+}

@@ -13,7 +13,6 @@ class Home extends Component{
 
                 {/* }<img id="down-arrow" src="http://image.flaticon.com/icons/svg/24/24567.svg"></img> */}
 
-
             </div>
 
         )
