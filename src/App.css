@@ -224,5 +224,28 @@ body{
     margin-left:15px;
     height:10vh;
     width:5vw;
+}
 
+
+/*--------------------Contact--------------------*/
+#contact-wrapper{
+    text-align:center;
+    margin-top:200px;
+    border: 1px solid red;
+}
+
+#contact-body{
+    width:100%;
+    margin:auto;
+    border:1px solid black
+}
+
+#contact-logo{
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.github-logo, .linkedin-logo, .resume-logo{
+    height:50px;
+    width:50px;
 }
