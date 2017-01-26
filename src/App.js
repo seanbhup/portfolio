@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Nav1 from './Nav.js';
-import './Nav.css';
+import Nav1 from './components/Nav.js';
+
 
 class App extends Component {
-  render() {
-    return (
-     <Nav1 />
-    );
-  }
+
+
+    render() {
+        return (
+            <div className="app">
+                <Nav1 />
+                {this.props.children}
+            </div>
+            
+        );
+    }
 }
 
 export default App;

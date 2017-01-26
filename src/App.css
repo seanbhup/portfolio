@@ -13,11 +13,89 @@ font-family: 'Bungee Inline', cursive;*/
 
 
 body{
-    background-color: #FFFFFF;
-    font-family: 'Squada One', cursive;
+    background-color: #5BC0EB;
+    height: 200vh;
+
+}
+
+#home-screen{
+    width:100%;
+    margin: auto;
+    text-align:center;
+}
+
+#home-name{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4vw;
+    color: #black;
+    margin-top: 350px;
+    /*text-align:center;*/
+
+}
+
+#home-description{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3vw;
+    color: #black;
+    margin-top: 30px;
+
+}
+
+#question-mark:hover{
+    animation: stuff 3s infinite;
+
+}
+
+@keyframes start-button {
+    0%   {opacity: 1;}
+    25%  {opacity: .5;}
+    50%  {opacity: .1;}
+    75%  {opacity: .5;}
+    100% {opacity: 1;}
+}
+@keyframes question-mark {
+    0%   {transform: translate(10px, 10px);}
+    25%  {transform: translate(15px, 15px);}
+    50%  {transform: translate(50px, 100px);}
+    75%  {transform: translate(50px, 100px);}
+    100% {transform: translate(50px, 100px);}
+}
+
+.press-start{
+    animation: start-button 2s infinite;
+    height:75px;
+    width:300px;
+    background-color:black;
+    border: 5px solid red;
+    border-radius: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2vh;
+    color: red;
+    margin-top: 50px;
+
+    text-align: center;
+    line-height: 3.5;
+}
+
+#question-mark{
+    animation: question-mark 2s infinite;
+}
+
+#press-start:hover{
+    animation: stuff 2s infinite;
+}
+
+#down-arrow{
+    color:white;
+    width:50px;
+    height:50px;
+
+    margin-top: 10px;
 }
 
 #navbar{
+    position:fixed;
+    top:0;
     font-family: 'Bungee Shade', cursive;
     height:100px;
     width:100%;
@@ -28,12 +106,12 @@ body{
 }
 
 #navbar:hover{
-    background-color: #2D7DD2;
+    /*background-color: #2D7DD2;*/
 }
 
 #nav-header, #nav{
-    margin-top: 25px;
-    margin-left: 50px;
+    line-height: 3;
+    padding-top:25px;
 
 }
 
@@ -41,34 +119,66 @@ body{
 
 #home{
     position: absolute;
-    left: 150px;
+    left: 100px;
     font-size: 46px;
-    color: #F45D01;
-    border-right: 10px solid #F45D01;
-    padding-right:150px
+    color: #51CB20 !important;
+    border-right: 10px solid #51CB20;
+    padding-right:75px
 }
 
-#home:hover{
-    color: #9FCC2E;
+#home a{
+    color: #51CB20 !important;
 }
 
-#navitem{
+#home:hover a{
+    color: #F45D01 !important;
+    text-decoration: none;
+}
+
+#nav{
+
+}
+
+#navitem a{
     height:100px;
-    color: #F45D01;
+    color: #51CB20 !important;
     margin-left: 50px;
-    font-size: 40px;
+    font-size: 34px;
 }
 
-#navitem:hover{
-    background-color:green;
-    color: #9FCC2E;
+#navitem:hover a, .active{
+    color: #F45D01 !important;
+    text-decoration: none;
+}
+
+{
+    color: #F45D01 !important;
+    text-decoration: none;
 }
 
 #logo{
     height:100px;
-    width:200px;
+    width:100px;
     position: absolute;
-    right: 0;
+    right: 0px;
     top: 0;
-    color: pink;
 }
+
+#about{
+    font-size: 100px
+}
+
+
+/*OTHER STUFF*/
+
+/*#header-wrapper{
+    width:100%;
+    float:left;
+}
+
+li{
+    display: inline-block;
+    float:left;
+    margin-left: 100px;
+
+}*/
