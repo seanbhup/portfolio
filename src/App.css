@@ -172,6 +172,55 @@ body{
     margin-top: 200px;
 }
 
+/*-------------------About TAB-------------------*/
+
+#about-wrapper{
+    text-align:center;
+
+}
+
+#about-body{
+    width:100%;
+    margin-top:200px;
+}
+
+#sean-image{
+    width:25%;
+    border-radius:50%;
+    border: 4px groove #51CB20;
+    box-shadow: 0px 4px 27px 6px rgba(0,0,0,0.75);
+
+
+}
+
+/*-------------------Projects TAB-------------------*/
+
+#projects-wrapper{
+    text-align:center;
+}
+
+#projects-body{
+    width:100%;
+    margin-top:200px;
+}
+
+#geoquiz-image{
+    width:50%;
+    height:300px;
+    float:left;
+
+    /*border: 4px ridge #1f453c;*/
+}
+#geoquiz-description{
+    float:right;
+    width:50%;
+    border: 1px solid black;
+    height:300px;
+    line-height:20;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
 /*--------------------Skills TAB--------------------*/
 
 
