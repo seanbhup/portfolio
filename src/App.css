@@ -18,6 +18,8 @@ body{
 
 }
 
+
+
 /*--------------------HOME TAB--------------------*/
 #home-screen{
     width:100%;
@@ -35,6 +37,7 @@ body{
 }
 
 #home-description{
+    animation: type 4s steps(60, end);
     font-family: 'Press Start 2P', cursive;
     font-size: 3vw;
     color: #black;
@@ -49,18 +52,28 @@ body{
 
 @keyframes start-button {
     0%   {opacity: 1;}
+    5%  {opacity: .9;}
+    10%  {opacity: .8;}
+    15%  {opacity: .7;}
+    20%  {opacity: .6;}
     25%  {opacity: .5;}
-    50%  {opacity: .1;}
+    30%  {opacity: .4;}
+    35%  {opacity: .3;}
+    40%  {opacity: .2;}
+    45%  {opacity: .1;}
+    50%  {opacity: 0;}
+    55%  {opacity: .1;}
+    60%  {opacity: .2;}
+    65%  {opacity: .3;}
+    70%  {opacity: .4;}
     75%  {opacity: .5;}
-    100% {opacity: 1;}
+    80%  {opacity: .6;}
+    85%  {opacity: .7;}
+    90%  {opacity: .8;}
+    95%  {opacity: .9;}
+    100%  {opacity: 1;}
 }
-@keyframes question-mark {
-    0%   {transform: translate(10px, 10px);}
-    25%  {transform: translate(15px, 15px);}
-    50%  {transform: translate(50px, 100px);}
-    75%  {transform: translate(50px, 100px);}
-    100% {transform: translate(50px, 100px);}
-}
+
 
 .press-start{
     animation: start-button 2s infinite;
@@ -78,23 +91,16 @@ body{
     line-height: 3.5;
 }
 
-#question-mark{
-    animation: question-mark 2s infinite;
-}
-
 #press-start:hover{
     animation: stuff 2s infinite;
 }
 
-#down-arrow{
-    color:white;
-    width:50px;
-    height:50px;
 
-    margin-top: 10px;
+.container{
+    padding-right: 0px;
+    padding-left: 0px;
+    margin: auto;
 }
-
-
 
 #navbar{
     position:fixed;
@@ -114,14 +120,14 @@ body{
 
 #nav-header, #nav{
     line-height: 3;
-    padding-top:25px;
+    /*padding-top:25px;*/
 
 }
 
 
 
 #home{
-    left: 50px;
+    /*left: 50px;*/
     font-size: 5vh;
     color: #51CB20 !important;
     border-right: 8px solid #51CB20;
@@ -145,7 +151,7 @@ body{
 
     height:100px;
     color: #51CB20 !important;
-    margin-left: 50px;
+    margin-left: 10px;
     font-size: 4vh;
 }
 
@@ -167,10 +173,7 @@ body{
     top: 0;
 }
 
-#about{
-    font-size: 100px;
-    margin-top: 200px;
-}
+
 
 /*-------------------About TAB-------------------*/
 
@@ -185,7 +188,7 @@ body{
 }
 
 #sean-image{
-    width:25%;
+    width:10%;
     border-radius:50%;
     border: 4px groove #51CB20;
     box-shadow: 0px 4px 27px 6px rgba(0,0,0,0.75);
@@ -200,7 +203,8 @@ body{
 }
 
 #projects-body{
-    width:100%;
+    width:75%;
+    margin: auto;
     margin-top:200px;
 }
 
@@ -243,7 +247,7 @@ body{
 
 #skills-body{
     width:75%;
-    height:200px;
+    height:30vh;
     margin:auto;
     border: 4px ridge #d69e3e;
     background-image: url("http://www.petesqbsite.com/sections/express/issue14/Foliagetutorial/clouds_tiled.png");
@@ -271,7 +275,7 @@ body{
     float:left;
     margin-top:10px;
     margin-left:15px;
-    height:10vh;
+    height:8vh;
     width:5vw;
 }
 
